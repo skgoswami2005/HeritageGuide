@@ -8,14 +8,17 @@ import {
   Alert,
 } from "react-native";
 import { useRouter } from "expo-router";
+import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { auth } from "@/services/firebaseConfig";
 
 export default function SignUpScreen() {
   const router = useRouter();
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const handleSignUp = () => {
+  const handleSignUp = async () => {
     if (!email || !password || !confirmPassword) {
       Alert.alert("Error", "Please fill in all fields");
       return;
@@ -24,14 +27,34 @@ export default function SignUpScreen() {
       Alert.alert("Error", "Passwords do not match");
       return;
     }
-    // Firebase signup logic here
-    Alert.alert("Success", "Account created successfully");
-    router.replace("/(tabs)/(home)");
+    try {
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
+      await updateProfile(userCredential.user, {
+        displayName: name,
+      });
+
+      router.replace("/(tabs)/(home)");
+    } catch (error: any) {
+      Alert.alert("Error", error.message);
+    }
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Create Account</Text>
+
+      <TextInput
+        placeholder="Name"
+        placeholderTextColor="#aaa"
+        value={name}
+        onChangeText={setName}
+        style={styles.input}
+      />
 
       <TextInput
         placeholder="Email"

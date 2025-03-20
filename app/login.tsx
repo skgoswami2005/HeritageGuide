@@ -26,7 +26,15 @@ export default function LoginScreen() {
       await signInWithEmailAndPassword(auth, email, password);
       router.replace("/(tabs)/(home)");
     } catch (error: any) {
-      Alert.alert("Error", error.message);
+      if (error.code === "auth/user-not-found") {
+        Alert.alert("Error", "User not found");
+      } else if (error.code === "auth/wrong-password") {
+        Alert.alert("Error", "Incorrect password");
+      } else if (error.code === "auth/invalid-credential") {
+        Alert.alert("Error", "Invalid credentials");
+      } else {
+        Alert.alert("Error", error.message);
+      }
     }
   };
 
