@@ -8,31 +8,30 @@ import {
   Alert,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "@/services/firebaseConfig";
 
-export default function LoginScreen() {
+export default function SignUpScreen() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
-  const handleLogin = async () => {
-    if (!email || !password) {
+  const handleSignUp = () => {
+    if (!email || !password || !confirmPassword) {
       Alert.alert("Error", "Please fill in all fields");
       return;
     }
-
-    try {
-      await signInWithEmailAndPassword(auth, email, password);
-      router.replace("/(tabs)/(home)");
-    } catch (error: any) {
-      Alert.alert("Error", error.message);
+    if (password !== confirmPassword) {
+      Alert.alert("Error", "Passwords do not match");
+      return;
     }
+    // Firebase signup logic here
+    Alert.alert("Success", "Account created successfully");
+    router.replace("/(tabs)/(home)");
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome Back!</Text>
+      <Text style={styles.title}>Create Account</Text>
 
       <TextInput
         placeholder="Email"
@@ -52,17 +51,26 @@ export default function LoginScreen() {
         style={styles.input}
       />
 
-      <TouchableOpacity onPress={handleLogin} style={styles.button}>
-        <Text style={styles.buttonText}>Login</Text>
+      <TextInput
+        placeholder="Confirm Password"
+        placeholderTextColor="#aaa"
+        value={confirmPassword}
+        onChangeText={setConfirmPassword}
+        secureTextEntry
+        style={styles.input}
+      />
+
+      <TouchableOpacity onPress={handleSignUp} style={styles.button}>
+        <Text style={styles.buttonText}>Sign Up</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() => router.push("/signup")}
+        onPress={() => router.back()}
         style={styles.linkContainer}
       >
         <Text style={styles.linkText}>
-          Don't have an account?{" "}
-          <Text style={styles.linkHighlight}>Sign Up</Text>
+          Already have an account?{" "}
+          <Text style={styles.linkHighlight}>Log In</Text>
         </Text>
       </TouchableOpacity>
     </View>
