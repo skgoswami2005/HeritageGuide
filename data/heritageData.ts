@@ -55,8 +55,6 @@ The **Delhi Gate** is one of the three main gates of the Red Fort in Delhi, Indi
 
 In summary, the Delhi Gate is a testament to the Mughal architectural prowess and serves as a lesser-known but important entrance to the Red Fort, highlighting the blend of functionality and aesthetics that defined Mughal architecture.
 
-
----
       `,
     image: "https://www.tutorialspoint.com/red_fort/images/delhi_gate.jpg",
   },
@@ -148,7 +146,6 @@ The Rang Mahal remains a captivating example of Mughal architecture, reflecting 
       `,
     image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Red_Fort_04b.jpg",
   },
-
   "khas-mahal": {
     title: "Khas Mahal",
     description:
@@ -348,5 +345,33 @@ The **Princes' Quarters** in the Red Fort of Delhi were residential areas design
 The Princes' Quarters represent an important aspect of Mughal residential architecture and royal life within the Red Fort. Despite alterations over time, they remain a testament to the fort's rich history and evolution during both Mughal and British rule.
     `,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEn13PHj1_mqjYkPbhMMQND2GKod2-7yR6QQ&s",
+  },
+  "hammam-(royal-baths)": {
+    title: "Hammam (Royal Baths)",
+    description: 
+      `
+The **Hammam**, or **Royal Baths**, is a significant architectural feature within the Red Fort complex in Delhi, India. It served as the bathing area for the Mughal emperors, reflecting the luxurious lifestyle and attention to detail characteristic of Mughal architecture.
+
+## **Historical Background**
+- **Construction**: The Hammam was built during the reign of Shah Jahan, as part of the Red Fort's construction between 1638 and 1648. It is located north of the **Diwan-i-Khas**, the Hall of Private Audience[1][4].
+- **Purpose**: The Hammam was designed to provide a luxurious bathing experience for the emperor and his family. It featured advanced heating systems and ornate decorations, symbolizing the opulence of Mughal life.
+
+## **Architectural Features**
+- **Design**: The Hammam consists of three apartments separated by corridors and crowned with domes. The apartments are illuminated by colored glass skylights, which add to their aesthetic appeal[1].
+- **Decorations**: The interior is richly decorated with colorful inlaid *pietra dura* floral designs made of white marble. The floors and dados are finished with white marble, reflecting the high standards of craftsmanship during the Mughal era[1].
+- **Fountains and Heating**: Each room features a central fountain, and one room includes a marble reservoir built into the wall. The western apartment was used for hot or vapor baths, with heating arrangements fixed in its western wall. Legend suggests that perfumed rose-water once flowed from the taps[1].
+
+## **Cultural Significance**
+- **Luxury and Privacy**: The Hammam was a symbol of the emperor's wealth and status, providing a private space for relaxation and personal grooming.
+- **Historical Events**: After the British took control of Delhi, the Hammam, like many other Mughal structures, was repurposed. British residents sometimes converted such buildings into living spaces, altering their original functions[2].
+
+## **Current Status**
+- **Accessibility**: The Hammam is currently closed to the public. It once contained sauna and hot baths for the royal family, but these facilities are no longer accessible[3].
+- **Preservation Efforts**: Despite being closed, the Hammam remains an important part of the Red Fort's architectural heritage. Efforts are made to preserve its historical integrity, though it is not open for visitors to explore.
+
+The Hammam stands as a testament to the luxurious lifestyle and architectural sophistication of the Mughal emperors. Its intricate design and historical significance contribute to the rich cultural tapestry of the Red Fort.
+    `
+    ,
+    image: "https://live.staticflickr.com/5171/13872976105_6d0edce685_b.jpg",
   }
 };
