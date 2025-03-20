@@ -11,6 +11,7 @@ const audioMap = {
   "Lahori Gate": require("@/assets/audios/lahori-gate.m4a"),
   "Delhi Gate": require("@/assets/audios/delhi-gate.m4a"),
   "Chatta Chowk": require("@/assets/audios/chatta-chowk.m4a"),
+  "Mumtaz Mahal": require("@/assets/audios/mumtaz-mahal.m4a"),
 };
 
 const AudioPlayer = () => {
