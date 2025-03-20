@@ -14,31 +14,19 @@ The **Lahori Gate** is the main entrance to the Red Fort in Delhi, India. It is 
 
 ## **Key Features:**
 
-- **Architecture:** The gate is a three-story structure, decorated with square, rectangular, and cusped arched panels. It is flanked by semi-octagonal towers crowned by two open octagonal pavilions. The gate is clad in red sandstone, except for the pavilion roofs, which are made of white stone[1][2].
-- **Decorations:** Between the two pavilions is a screen of miniature *chhatris* with seven miniature marble domes. The walls feature flame-shaped battlements[1][2].
-- **Barbican:** During Aurangzeb's reign, a barbican was added to the gate, which Shah Jahan described as "a veil drawn across the face of a beautiful woman"[1][3].
+- **Architecture:** The gate is a three-story structure, decorated with square, rectangular, and cusped arched panels. It is flanked by semi-octagonal towers crowned by two open octagonal pavilions. The gate is clad in red sandstone, except for the pavilion roofs, which are made of white stone.
+- **Decorations:** Between the two pavilions is a screen of miniature *chhatris* with seven miniature marble domes. The walls feature flame-shaped battlements.
+- **Barbican:** During Aurangzeb's reign, a barbican was added to the gate, which Shah Jahan described as "a veil drawn across the face of a beautiful woman".
 
 ## **Historical Significance:**
 
-- **Independence Day Celebrations:** Every year since India's independence in 1947, the national flag is raised at the Lahori Gate on Independence Day, and the Prime Minister delivers a speech from its ramparts[1][3].
-- **Tourist Attraction:** The gate is a popular spot for photography due to its grandeur and historical significance[4].
+- **Independence Day Celebrations:** Every year since India's independence in 1947, the national flag is raised at the Lahori Gate on Independence Day, and the Prime Minister delivers a speech from its ramparts.
+- **Tourist Attraction:** The gate is a popular spot for photography due to its grandeur and historical significance.
 
 ## **Access and Surroundings:**
 
-- **Chhatta Chowk:** The gate leads into the Chhatta Chowk, a covered bazaar that was historically known for selling luxury goods like silk and jewelry[3].
-- **Other Gates:** The Red Fort has other gates, including the Delhi Gate, which serves as the southern entrance and is similar in design to the Lahori Gate[2][3].
-
-### Citations:
-
-[1] https://en.wikipedia.org/wiki/Lahori_Gate,_Delhi
-[2] https://www.flickr.com/photos/asienman/53334301981
-[3] https://en.wikipedia.org/wiki/Red_Fort
-[4] https://www.tripadvisor.in/Attraction_Review-g304551-d4738949-Reviews-Lahori_Gate-New_Delhi_National_Capital_Territory_of_Delhi.html
-[5] https://www.delhitourism.com/attractions-siteseeing-places/lahori-gate
-[6] https://www.rct.uk/collection/2114130/the-lahori-gate-of-the-red-fort-delhi
-[7] https://www.youtube.com/watch?v=EdV7pjbf6NQ
-[8] https://www.abplive.com/photo-gallery/gk/why-is-there-lahori-gate-in-the-red-fort-of-delhi-know-the-reason-2664812
-
+- **Chhatta Chowk:** The gate leads into the Chhatta Chowk, a covered bazaar that was historically known for selling luxury goods like silk and jewelry.
+- **Other Gates:** The Red Fort has other gates, including the Delhi Gate, which serves as the southern entrance and is similar in design to the Lahori Gate.
           `,
     image:
       "https://live.staticflickr.com/65535/15150249399_c218957667_b.jpg",
@@ -50,32 +38,23 @@ The **Lahori Gate** is the main entrance to the Red Fort in Delhi, India. It is 
 The **Delhi Gate** is one of the three main gates of the Red Fort in Delhi, India. It is located at the southern end of the fort and served as a secondary entrance, primarily used by the public. Here's a detailed overview of this historical gate:
 
 ## **History and Construction**
-- The Delhi Gate was built during the reign of Mughal Emperor Shah Jahan, who commissioned the construction of the Red Fort in 1638. The fort was completed in 1648, and the gate was part of this grand architectural project[1][2].
-- The gate's design is similar to the **Lahori Gate**, with square, rectangular, and ornate decorations, reflecting the Indo-Islamic architectural style prevalent during the Mughal era[2].
+- The Delhi Gate was built during the reign of Mughal Emperor Shah Jahan, who commissioned the construction of the Red Fort in 1638. The fort was completed in 1648, and the gate was part of this grand architectural project.
+- The gate's design is similar to the **Lahori Gate**, with square, rectangular, and ornate decorations, reflecting the Indo-Islamic architectural style prevalent during the Mughal era.
 
 ## **Significance and Use**
-- The Delhi Gate was used by the emperor to travel to the **Jama Masjid** for prayers. It is situated in the southwest corner of the fort, making it a convenient exit for this purpose[8].
-- Unlike the **Lahori Gate**, which is more famous for its association with India's Independence Day celebrations, the Delhi Gate was not as prominent in historical events but played a crucial role in the daily life of the fort's inhabitants[1][2].
+- The Delhi Gate was used by the emperor to travel to the **Jama Masjid** for prayers. It is situated in the southwest corner of the fort, making it a convenient exit for this purpose.
+- Unlike the **Lahori Gate**, which is more famous for its association with India's Independence Day celebrations, the Delhi Gate was not as prominent in historical events but played a crucial role in the daily life of the fort's inhabitants.
 
 ## **Architecture and Design**
 - The gate's architecture is characterized by its robust structure, which was designed to provide security while also serving as an impressive entrance to the fort.
-- The decorations on the gate are less elaborate compared to some of the other structures within the fort, reflecting its more practical use as a public entrance[2].
+- The decorations on the gate are less elaborate compared to some of the other structures within the fort, reflecting its more practical use as a public entrance.
 
 ## **Current Status**
-- Today, the Delhi Gate remains an integral part of the Red Fort complex, which was designated a UNESCO World Heritage Site in 2007[1][3].
+- Today, the Delhi Gate remains an integral part of the Red Fort complex, which was designated a UNESCO World Heritage Site in 2007.
 - Visitors can explore the gate as part of their tour of the Red Fort, appreciating its historical significance and architectural beauty.
 
 In summary, the Delhi Gate is a testament to the Mughal architectural prowess and serves as a lesser-known but important entrance to the Red Fort, highlighting the blend of functionality and aesthetics that defined Mughal architecture.
 
-Citations:
-[1] https://en.wikipedia.org/wiki/Red_Fort
-[2] https://historyfinder.in/red-fort-of-delhi-history-and-invasions/
-[3] https://www.britannica.com/topic/Red-Fort
-[4] https://www.incredibleindia.gov.in/en/delhi/delhi/red-fort
-[5] https://www.mytourpackage.in/blog/all-you-need-to-know-about-historical-14-gates-of-delhi
-[6] https://study.com/academy/lesson/red-fort-india-construction-history-use.html
-[7] https://scroll.in/article/1079945/in-photos-a-walk-through-the-gates-of-old-delhi
-[8] https://ranasafvi.com/dilli-ka-delhi-darwaza-or-delhi-gate/
 
 ---
       `,
@@ -109,15 +88,6 @@ Citations:
 
 Chatta Chowk stands as a testament to Mughal ingenuity and serves as a vibrant reminder of Delhi's rich cultural heritage within the Red Fort complex.
 
-Citations:
-[1] https://en.wikipedia.org/wiki/Red_Fort
-[2] https://www.deccanherald.com/content/129444/chatta-chowk-market-all-reasons.html
-[3] https://en.wikipedia.org/wiki/Chhatta_Chowk
-[4] https://ria-gupta.com/chatta-chowk-red-fort-delhi-shopping/
-[5] https://www.youtube.com/watch?v=b1HgZ7stH1c
-[6] https://www.tripadvisor.in/ShowUserReviews-g304551-d2711772-r172154923-Chhatta_Chowk_Bazaar-New_Delhi_National_Capital_Territory_of_Delhi.html
-[7] https://thepatriot.in/buzz/the-og-meena-bazaar-inside-red-fort-45514
-[8] https://www.lonelyplanet.com/india/delhi/old-delhi-shahjahanabad/attractions/chatta-chowk/a/poi-sig/1337793/1342596
 
       `,
     image: "https://ria-gupta.com/wp-content/uploads/2022/05/chatta-chowk-red-fort.jpg"
@@ -144,16 +114,6 @@ The **Mumtaz Mahal** is one of the six main palaces within the Red Fort complex 
 - Over time, much of its original splendor was lost due to invasions and British modifications during colonial rule. However, restoration projects have aimed to preserve its historical significance.
 
 The Mumtaz Mahal stands as a testament to Mughal opulence and serves as a window into the lives of royal women during Shah Jahan's reign. Its transformation into a museum ensures that its legacy remains accessible to future generations.
-
-Citations:
-[1] https://en.wikipedia.org/wiki/Red_Fort
-[2] https://www.fabhotels.com/blog/red-fort-delhi/
-[3] https://en.wikipedia.org/wiki/Mumtaz_Mahal_(Red_Fort)
-[4] https://www.tutorialspoint.com/red_fort/red_fort_palaces.htm
-[5] https://artsandculture.google.com/story/red-fort-a-symbol-of-splendour-incredibleindia/dgWhNOimJNNcLg?hl=en
-[6] https://www.tutorialspoint.com/red_fort/red_fort_history.htm
-[7] https://www.hindustantimes.com/india-news/mughal-harem-building-in-red-fort-restored-opened/story-TrI4rmGEXCL0PMXk2r3SeN.html
-[8] https://en.wikipedia.org/wiki/Red_Fort_Archaeological_Museum
 
       `,
     image: "https://upload.wikimedia.org/wikipedia/commons/4/41/Red_Fort_8.JPG",
@@ -185,17 +145,6 @@ The **Rang Mahal**, also known as the **Palace of Colours**, is a significant st
 - Today, the Rang Mahal is part of the Red Fort Archaeological Museum. Visitors can explore its architectural beauty and learn about its historical significance within the context of Mughal culture.
 
 The Rang Mahal remains a captivating example of Mughal architecture, reflecting both the artistic achievements and the luxurious lifestyle of the royal family during Shah Jahan's reign. Its intricate design and serene ambiance continue to draw visitors, making it an essential part of India's rich heritage.
-
-Citations:
-[1] https://en.wikipedia.org/wiki/Red_Fort
-[2] https://www.youtube.com/watch?v=8FA2sX642M4
-[3] https://en.wikipedia.org/wiki/Rang_Mahal_(Red_Fort)
-[4] https://so.city/delhi/article/the-palace-of-colours-rang-mahal-houses-a-shish-mahal-which-was-picturized-in-mughal-e-azam
-[5] https://www.tripadvisor.in/Attraction_Review-g304551-d23181308-Reviews-Rang_Mahal_Palace_Of_Colour_Red_Fort-New_Delhi_National_Capital_Territory_of_Del.html
-[6] https://www.lonelyplanet.com/india/delhi/old-delhi-shahjahanabad/attractions/rang-mahal/a/poi-sig/1337808/1342596
-[7] https://www.archnet.org/sites/5270
-[8] https://www.justdial.com/Delhi/Rang-Mahal-The-Red-Fort-Near-Diwan-I-Khas-Red-Fort/011PXX11-XX11-141218110113-S2R1_BZDET
-
       `,
     image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Red_Fort_04b.jpg",
   },
@@ -204,7 +153,6 @@ Citations:
     title: "Khas Mahal",
     description:
       `
-
 The **Khas Mahal** is a prominent structure within the Red Fort complex in Delhi, serving as the private residence of the Mughal emperor. This exquisite palace reflects the architectural elegance and artistic sophistication of the Mughal era, particularly during the reign of Shah Jahan.
 
 ## **Historical Background**
@@ -229,16 +177,6 @@ The **Khas Mahal** is a prominent structure within the Red Fort complex in Delhi
 - Today, parts of the Khas Mahal are accessible to visitors as part of the Red Fort complex. While some areas may be restricted, its architectural beauty and historical importance continue to attract tourists and historians alike.
 
 The Khas Mahal remains an enduring symbol of Mughal grandeur, encapsulating the opulence and artistic achievements of its time. Its intricate design and serene environment offer a glimpse into the luxurious lifestyle enjoyed by Mughal emperors within the Red Fort.
-
-Citations:
-[1] https://en.wikipedia.org/wiki/Red_Fort
-[2] https://en.wikipedia.org/wiki/Khas_Mahal_(Red_Fort)
-[3] https://www.youtube.com/watch?v=Iya9jMuAfdU
-[4] https://www.archnet.org/sites/2545
-[5] https://www.lonelyplanet.com/india/delhi/old-delhi-shahjahanabad/attractions/khas-mahal/a/poi-sig/1337802/1342596
-[6] https://www.tripadvisor.in/Attraction_Review-g304551-d7364177-Reviews-Khas_Mahal-New_Delhi_National_Capital_Territory_of_Delhi.html
-[7] https://www.gettyimages.in/photos/the-khas-mahal
-[8] https://khas-mahal.wheree.com
       `,
     image: "https://media-cdn.tripadvisor.com/media/photo-s/16/ae/e5/88/khas-mahal.jpg"
   },
@@ -268,16 +206,6 @@ The **Diwan-i-Aam**, or the **Hall of Public Audience**, is one of the most nota
 - Today, the Diwan-i-Aam stands as a preserved monument within the Red Fort complex, attracting visitors who marvel at its historical and architectural significance. Efforts have been made to restore parts of its original design.
 
 The Diwan-i-Aam remains a powerful symbol of Mughal administration and justice, showcasing how emperors sought to maintain a connection with their subjects while emphasizing their divine right to rule. Its architectural beauty and historical importance make it one of the key attractions in the Red Fort.
-
-Citations:
-[1] https://www.hindustantimes.com/analysis/historicity-delhi-s-red-fort-a-monument-of-power-rebellion-and-independence-101723907722502.html
-[2] https://www.youtube.com/watch?v=Ux1t4l0RF94
-[3] https://artsandculture.google.com/story/red-fort-a-symbol-of-splendour-incredibleindia/dgWhNOimJNNcLg?hl=en
-[4] https://artsandculture.google.com/story/red-fort-indian-national-trust-for-art-and-cultural-heritage/DAVRBY9EVwsA8A?hl=en
-[5] https://www.aucklandartgallery.com/explore-art-and-ideas/artwork/3714/koorsee-diwan-e-aam-hall-of-public-audiences
-[6] https://commons.wikimedia.org/wiki/File:Diwan-i-Aam_Red_Fort_Delhi.jpg
-[7] https://artsandculture.google.com/entity/diwan-i-aam/m0zmzqq5
-[8] https://indianexpress.com/article/cities/delhi/restoring-the-wonder-in-red/
     `,
     image: "https://live.staticflickr.com/3898/15342703035_bd9bf831c1_b.jpg",
   },
@@ -309,17 +237,7 @@ The **Diwan-i-Khas**, or the **Hall of Private Audience**, is one of the most ic
 ## **Current Status**
 - Today, the Diwan-i-Khas remains a major attraction within the Red Fort complex. Although its original furnishings are gone, visitors can still admire its intricate architecture and imagine its historical significance.
 
-The Diwan-i-Khas stands as a testament to Mughal opulence and political power. Its architectural beauty and historical importance make it one of the most celebrated monuments in India[1][3][5].
-
-Citations:
-[1] https://en.wikipedia.org/wiki/Diwan-i-Khas_(Red_Fort)
-[2] https://en.wikipedia.org/wiki/Diwan-i-Am_(Red_Fort)
-[3] https://www.britannica.com/topic/Red-Fort
-[4] https://en.wikipedia.org/wiki/File:Diwan-i-Khas,_Red_Fort,_Delhi_with_red_awnings_or_shamianas,_in_1817.jpg
-[5] https://artsandculture.google.com/story/red-fort-a-symbol-of-splendour-incredibleindia/dgWhNOimJNNcLg?hl=en
-[6] https://artsandculture.google.com/entity/diwan-e-khas/m0zm_63m?hl=en
-[7] https://www.flickr.com/photos/asienman/15344437282
-[8] https://www.lonelyplanet.com/india/delhi/old-delhi-shahjahanabad/attractions/diwan-i-am/a/poi-sig/1337794/1342596
+The Diwan-i-Khas stands as a testament to Mughal opulence and political power. Its architectural beauty and historical importance make it one of the most celebrated monuments in India.
       `,
     image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Diwan-i-khas%2C_Red_fort.jpg"
   },
@@ -348,16 +266,62 @@ The **Moti Masjid**, or **Pearl Mosque**, is a historical mosque located within 
 
 The Moti Masjid stands as an important example of Mughal architecture during Aurangzeb's reign and continues to attract visitors interested in India's rich cultural heritage. Its elegant design and historical significance contribute to its status as a notable landmark within the Red Fort.
 
-Citations:
-[1] https://en.wikipedia.org/wiki/Moti_Masjid_(Red_Fort)
-[2] https://www.archnet.org/sites/1577
-[3] https://testbook.com/question-answer/who-built-the-moti-masjid-in-red-fort-at-delhi--6079406cb27687f9722df33b
-[4] https://www.youtube.com/watch?v=MtYBAkGhThM
-[5] https://en.wikipedia.org/wiki/Moti_Masjid_(Mehrauli)
-[6] https://www.alamy.com/stock-photo/moti-masjid-red-fort.html
-[7] https://testbook.com/question-answer/moti-masjid-in-the-red-fort-delhi-was-constructed--5f17fd3825d6500d0f73c857
-[8] https://commons.wikimedia.org/wiki/Category:Moti_Masjid_(Red_Fort)
       `,
     image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Moti_Masjid%2C_Mehrauli%2C_Delhi.jpg"
+  },
+  "hira-mahal": {
+    title: "Hira Mahal",
+    description: `
+The **Hira Mahal** is a notable pavilion located within the Red Fort complex in Delhi, India. Constructed during the late Mughal period, it serves as an example of the architectural style and cultural significance of the time.
+
+## **Historical Background**
+- **Construction**: The Hira Mahal was built in **1842** during the reign of **Bahadur Shah II**, the last Mughal emperor. It was part of a series of structures added to the Red Fort as it evolved over the centuries.
+- **Location**: Positioned on the eastern wall of the fort, north of the **Moti Masjid**, the Hira Mahal is strategically situated to overlook the surrounding gardens, particularly the **Hayat Baksh Bagh**.
+
+## **Architectural Features**
+- **Design**: The pavilion is a four-sided structure made primarily of white marble. Its design is relatively simple compared to other lavish Mughal constructions, featuring basic relief decorations without extensive inlay work.
+- **Structure**: The Hira Mahal is characterized by its overhanging eaves (*chhajja*) and elegantly carved arches. This design not only adds aesthetic value but also provides shade and protection from rain.
+- **Size**: While modest in size, the pavilion's layout reflects typical Mughal architectural principles, emphasizing symmetry and harmony with nature.
+
+## **Cultural Significance**
+- **Functionality**: The Hira Mahal was likely used for leisure and relaxation by members of the royal family. Its serene location made it an ideal spot for contemplation and enjoyment of the surrounding gardens.
+- **Historical Context**: The construction of Hira Mahal during Bahadur Shah II's reign reflects the continued influence of Mughal architecture even as the empire faced decline. It symbolizes a blend of traditional Mughal aesthetics with a simpler approach that characterized later structures.
+
+## **Current Status**
+- The Hira Mahal remains part of the Red Fort complex, which is recognized as a UNESCO World Heritage Site. Although it is not as grand as some other structures within the fort, it contributes to the overall historical narrative of Mughal architecture.
+- Restoration efforts have been made to preserve its integrity, allowing visitors to appreciate its historical significance and architectural beauty.
+
+The Hira Mahal stands as a testament to the enduring legacy of Mughal architecture and culture, offering insights into the lifestyle and preferences of the last Mughal emperor and his court. Its simplicity and elegance continue to attract visitors interested in India's rich historical heritage.
+
+    `,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hira_Mahal_-_North-west_View_-_Red_Fort_-_Delhi_2014-05-13_3395.JPG/800px-Hira_Mahal_-_North-west_View_-_Red_Fort_-_Delhi_2014-05-13_3395.JPG",
+  },
+  "naubat-khana": {
+    title: "Naubat Khana",
+    description: `
+    ## Naubat Khana (Drum House) in the Red Fort
+
+The **Naubat Khana**, also known as **Naqqar Khana**, is a significant structure within the Red Fort complex in Delhi, India. This drum house served as a musical pavilion where court musicians performed, marking important events and ceremonies during the Mughal era.
+
+### **Historical Background**
+- **Construction**: The Naubat Khana was constructed in **1638** as part of the Red Fort, which was commissioned by Emperor Shah Jahan. It was designed to be a prominent feature of the fort, situated at the entrance between the outer and inner courts.
+- **Functionality**: The primary purpose of the Naubat Khana was to announce the arrival of the emperor and other dignitaries through music. Musicians would play five times a day at designated hours, creating a ceremonial atmosphere within the fort.
+
+### **Architectural Features**
+- **Design**: The Naubat Khana is a large three-storeyed rectangular building made of red sandstone. The walls are adorned with intricate carvings that were originally painted with gold, giving it an opulent appearance.
+- **Interior**: Inside, the Naubat Khana features a vaulted ceiling with geometric patterns and floral motifs. The interior design reflects the artistic sensibilities of Mughal architecture, with layers of paint still visible in some areas.
+- **Access**: The building served as a transition point for visitors entering the inner court. It was also known as **Hathipol** or "elephant gate," where individuals other than royal family members were required to dismount from their elephants before proceeding further into the fort.
+
+### **Cultural Significance**
+- **Ceremonial Role**: The Naubat Khana played a vital role in Mughal court life, serving as a hub for musical performances that accompanied royal ceremonies and public events.
+- **Historical Events**: Some historians believe that later Mughal emperors, such as Jahandar Shah and Farrukhsiyar, were assassinated within this building, adding to its historical intrigue.
+
+### **Current Status**
+- Today, the Naubat Khana houses the **Indian War Memorial Museum**, which occupies its upper floors. Although it has undergone various restorations over time, efforts continue to preserve its historical integrity.
+- Visitors to the Red Fort can explore the Naubat Khana as part of their tour, appreciating its architectural beauty and historical significance.
+
+The Naubat Khana remains an essential part of the Red Fort's legacy, symbolizing the rich cultural traditions of music and ceremony that were integral to Mughal governance and society. Its unique design and historical context make it a noteworthy attraction for those interested in India's heritage.
+    `,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%27Naubat_Khana%27_at_RED_FORT%2C_Delhi%2C_India.JPG/640px-%27Naubat_Khana%27_at_RED_FORT%2C_Delhi%2C_India.JPG",
   }
 };
