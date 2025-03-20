@@ -299,7 +299,6 @@ The Hira Mahal stands as a testament to the enduring legacy of Mughal architectu
   "naubat-khana": {
     title: "Naubat Khana",
     description: `
-    ## Naubat Khana (Drum House) in the Red Fort
 
 The **Naubat Khana**, also known as **Naqqar Khana**, is a significant structure within the Red Fort complex in Delhi, India. This drum house served as a musical pavilion where court musicians performed, marking important events and ceremonies during the Mughal era.
 
@@ -323,5 +322,31 @@ The **Naubat Khana**, also known as **Naqqar Khana**, is a significant structure
 The Naubat Khana remains an essential part of the Red Fort's legacy, symbolizing the rich cultural traditions of music and ceremony that were integral to Mughal governance and society. Its unique design and historical context make it a noteworthy attraction for those interested in India's heritage.
     `,
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%27Naubat_Khana%27_at_RED_FORT%2C_Delhi%2C_India.JPG/640px-%27Naubat_Khana%27_at_RED_FORT%2C_Delhi%2C_India.JPG",
+  },
+  "princes’-quarters": {
+    title: "Princes’ Quarters",
+    description: `
+
+The **Princes' Quarters** in the Red Fort of Delhi were residential areas designated for members of the Mughal royal family, particularly the imperial princes. These quarters reflect the lifestyle and architectural preferences of the late Mughal Empire.
+
+### **Historical Background**
+- **Purpose**: The Princes' Quarters were constructed as private residences for Mughal princes and other members of the royal family. They were part of the larger imperial complex within the Red Fort, which served as the center of Mughal governance and royal life.
+- **Late Mughal Period**: The quarters date back to the later period of the Mughal Empire, when the dynasty was experiencing decline. Despite this, they retained elements of grandeur and functionality.
+
+### **Architectural Features**
+- **Original Design**: The quarters were originally designed as palaces, reflecting Indo-Islamic architectural styles with intricate carvings and spacious layouts. However, much of their original appearance has been altered or lost over time.
+- **Surviving Structure**: Only one structure from the Princes' Quarters has survived. It has undergone significant modifications, losing much of its original Mughal design.
+
+### **Impact of History**
+- **British Conversion**: After the Indian Rebellion of 1857, British forces repurposed parts of the Princes' Quarters. One surviving palace was converted into a meeting and amusement hall for British soldiers and renamed the "Tea House."
+- **Renovation**: In 1919, Maulvi Zafar Hassan described this structure as a pavilion in his book *Monuments of Delhi*. Over time, it underwent renovations to preserve its historical significance.
+
+### **Current Status**
+- **Tea House**: Today, one of the Princes' Quarters operates as a working restaurant called the "Tea House," offering refreshments to visitors. It also serves as a tourist shop.
+- **Open to Visitors**: The surviving structure is accessible to tourists, allowing them to explore its historical significance while enjoying modern amenities.
+
+The Princes' Quarters represent an important aspect of Mughal residential architecture and royal life within the Red Fort. Despite alterations over time, they remain a testament to the fort's rich history and evolution during both Mughal and British rule.
+    `,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEn13PHj1_mqjYkPbhMMQND2GKod2-7yR6QQ&s",
   }
 };
