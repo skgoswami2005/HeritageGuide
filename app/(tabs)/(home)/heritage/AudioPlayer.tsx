@@ -13,6 +13,7 @@ const audioMap = {
   "Chatta Chowk": require("@/assets/audios/chatta-chowk.m4a"),
   "Mumtaz Mahal": require("@/assets/audios/mumtaz-mahal.m4a"),
   "Rang Mahal": require("@/assets/audios/rang-mahal.m4a"),
+  "khas-mahal": require("@/assets/audios/khas-mahal.m4a"),
 };
 
 const AudioPlayer = () => {
