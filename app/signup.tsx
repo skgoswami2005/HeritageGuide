@@ -10,6 +10,7 @@ import {
 import { useRouter } from "expo-router";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "@/services/firebaseConfig";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function SignUpScreen() {
   const router = useRouter();
@@ -37,6 +38,15 @@ export default function SignUpScreen() {
       await updateProfile(userCredential.user, {
         displayName: name,
       });
+
+      await AsyncStorage.setItem(
+        "user",
+        JSON.stringify({
+          uid: userCredential.user.uid,
+          email: userCredential.user.email,
+          displayName: userCredential.user.displayName,
+        })
+      );
 
       router.replace("/(tabs)/(home)");
     } catch (error: any) {

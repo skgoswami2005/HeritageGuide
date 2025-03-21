@@ -1,18 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 
 import { useRouter } from "expo-router";
 import { primaryColor, secondaryColor } from "@/constants/Colors";
+import { auth } from "@/services/firebaseConfig";
 
 export default function HomeScreen() {
   const router = useRouter();
+
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    const user = auth.currentUser;
+    if (user) {
+      setName(user.displayName ?? "");
+    }
+  }, []);
 
   return (
     <LinearGradient
       colors={[primaryColor, secondaryColor]}
       style={styles.container}
     >
+      <Text
+        style={{
+          position: "absolute",
+          left: 20,
+          top: 100,
+          fontSize: 28,
+          color: "#fff",
+        }}
+      >
+        Hello, {name}
+      </Text>
       <Text style={styles.title}>Heritage Site Guide</Text>
       <Text style={styles.subtitle}>
         Explore heritage sites by scanning QR codes

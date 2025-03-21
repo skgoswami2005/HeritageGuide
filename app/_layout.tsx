@@ -7,10 +7,14 @@ import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "react-native-reanimated";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { ActivityIndicator, View, Text } from "react-native";
+import { primaryColor, secondaryColor } from "@/constants/Colors";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -21,14 +25,56 @@ export default function RootLayout() {
     SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   useEffect(() => {
+    const checkUser = async () => {
+      try {
+        // const userData = await AsyncStorage.getItem("user");
+        // if (userData) {
+        //   const { email, password } = JSON.parse(userData);
+        //   if (email && password) {
+        //     // ✅ Sign in automatically using Firebase
+        //     const auth = getAuth();
+        //     await signInWithEmailAndPassword(auth, email, password);
+        //     setIsLoggedIn(true);
+        //   }
+        // }
+      } catch (error) {
+        console.log("Error checking login state:", error);
+      } finally {
+        SplashScreen.hideAsync();
+      }
+    };
+
     if (loaded) {
-      SplashScreen.hideAsync();
+      checkUser();
     }
   }, [loaded]);
 
   if (!loaded) {
-    return null;
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: primaryColor,
+        }}
+      >
+        <Text
+          style={{
+            fontSize: 40,
+            color: "white",
+            fontWeight: "bold",
+            marginBottom: 10,
+          }}
+        >
+          HeritEdge
+        </Text>
+        <ActivityIndicator size="large" color={secondaryColor} />
+      </View>
+    );
   }
 
   return (

@@ -15,28 +15,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { backgroundColor, primaryColor } from "@/constants/Colors";
+import { useEffect, useState } from "react";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "@/services/firebaseConfig";
 
 export default function DetailScreen() {
   const { place } = useLocalSearchParams<{ place: string }>();
   const placeData = heritageData[place ?? ""];
-
-  if (!placeData) {
-    return (
-      <>
-        <Stack.Screen
-          options={{
-            title: "Not Found",
-            headerBackTitle: "Back",
-          }}
-        />
-        <View style={styles.container}>
-          <Text style={styles.errorText}>
-            No details available for this place.
-          </Text>
-        </View>
-      </>
-    );
-  }
 
   return (
     <>

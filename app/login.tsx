@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   View,
   Text,
@@ -8,8 +8,13 @@ import {
   Alert,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { signInWithEmailAndPassword } from "firebase/auth";
+import {
+  getAuth,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import { auth } from "@/services/firebaseConfig";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function LoginScreen() {
   const router = useRouter();
@@ -23,7 +28,27 @@ export default function LoginScreen() {
     }
 
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
+      const user = userCredential.user;
+
+      await AsyncStorage.setItem(
+        "user",
+        JSON.stringify({
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName,
+        })
+      );
+
+      console.log("====================================");
+      console.log("User", user);
+      console.log("====================================");
+
       router.replace("/(tabs)/(home)");
     } catch (error: any) {
       if (error.code === "auth/user-not-found") {
