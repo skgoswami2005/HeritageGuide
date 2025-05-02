@@ -20,15 +20,59 @@ export default function SignUpScreen() {
   const [confirmPassword, setConfirmPassword] = useState("");
 
   const handleSignUp = async () => {
-    if (!email || !password || !confirmPassword) {
-      Alert.alert("Error", "Please fill in all fields");
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (!isValidEmail) {
+      Alert.alert("Error", "Please enter a valid email address");
+      return;
+    }
+
+    // Password validation rules
+    const passwordRequirements = {
+      minLength: 8,
+      hasUpperCase: /[A-Z]/.test(password),
+      hasLowerCase: /[a-z]/.test(password),
+      hasNumbers: /\d/.test(password),
+      hasSpecialChar: /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password),
+    };
+
+    // Check password requirements
+    if (password.length < passwordRequirements.minLength) {
+      Alert.alert("Error", "Password must be at least 8 characters long");
+      return;
+    }
+    if (!passwordRequirements.hasUpperCase) {
+      Alert.alert(
+        "Error",
+        "Password must contain at least one uppercase letter"
+      );
+      return;
+    }
+    if (!passwordRequirements.hasLowerCase) {
+      Alert.alert(
+        "Error",
+        "Password must contain at least one lowercase letter"
+      );
+      return;
+    }
+    if (!passwordRequirements.hasNumbers) {
+      Alert.alert("Error", "Password must contain at least one number");
+      return;
+    }
+    if (!passwordRequirements.hasSpecialChar) {
+      Alert.alert(
+        "Error",
+        "Password must contain at least one special character"
+      );
       return;
     }
     if (password !== confirmPassword) {
       Alert.alert("Error", "Passwords do not match");
       return;
     }
+
     try {
+      Alert.alert("Loading...");
+
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         email,

@@ -12,10 +12,14 @@ export default function HomeScreen() {
   const [name, setName] = useState("");
 
   useEffect(() => {
-    const user = auth.currentUser;
-    if (user) {
-      setName(user.displayName ?? "");
-    }
+    // get user details
+    const getUserDetails = async () => {
+      const user = auth.currentUser;
+      if (user) {
+        setName(user.displayName ?? "");
+      }
+    };
+    getUserDetails();
   }, []);
 
   return (
@@ -33,6 +37,9 @@ export default function HomeScreen() {
         }}
       >
         Hello, {name}
+      </Text>
+      <Text style={{ fontSize: 25, paddingBottom: 30, color: "#fff" }}>
+        Welcome to HeritEdge
       </Text>
       <Text style={styles.title}>Heritage Site Guide</Text>
       <Text style={styles.subtitle}>

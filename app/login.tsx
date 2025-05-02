@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   Alert,
+  Image,
 } from "react-native";
 import { useRouter } from "expo-router";
 import {
@@ -15,8 +16,34 @@ import {
 } from "firebase/auth";
 import { auth } from "@/services/firebaseConfig";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { logEvent } from "firebase/analytics";
+import { analytics } from "@/services/firebaseConfig";
+import * as Google from "expo-auth-session/providers/google";
+import { GoogleAuthProvider, signInWithCredential } from "firebase/auth";
+import { makeRedirectUri } from "expo-auth-session";
 
 export default function LoginScreen() {
+  const [request, response, promptAsync] = Google.useIdTokenAuthRequest({
+    clientId:
+      "604075170973-pp3edqr3cjhi97rctr12r6v36m24fc0e.apps.googleusercontent.com",
+    redirectUri: "https://auth.expo.io/@anonymous/HeritageGuide",
+  });
+
+  useEffect(() => {
+    if (response?.type === "success") {
+      const { id_token } = response.params;
+      const credential = GoogleAuthProvider.credential(id_token);
+
+      signInWithCredential(auth, credential)
+        .then((userCredential) => {
+          console.log("User signed in:", userCredential.user);
+        })
+        .catch((error) => {
+          console.error("Authentication error:", error);
+        });
+    }
+  }, [response]);
+
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,12 +54,24 @@ export default function LoginScreen() {
       return;
     }
 
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    if (!isValidEmail) {
+      Alert.alert("Error", "Please enter a valid email address");
+      return;
+    }
+
     try {
+      Alert.alert("Loading...");
+
       const userCredential = await signInWithEmailAndPassword(
         auth,
         email,
         password
       );
+
+      logEvent(analytics, "login", {
+        method: "email",
+      });
 
       const user = userCredential.user;
 
@@ -44,10 +83,6 @@ export default function LoginScreen() {
           displayName: user.displayName,
         })
       );
-
-      console.log("====================================");
-      console.log("User", user);
-      console.log("====================================");
 
       router.replace("/(tabs)/(home)");
     } catch (error: any) {
@@ -96,6 +131,42 @@ export default function LoginScreen() {
         <Text style={styles.linkText}>
           Don't have an account?{" "}
           <Text style={styles.linkHighlight}>Sign Up</Text>
+        </Text>
+      </TouchableOpacity>
+
+      <Text
+        style={{
+          width: "100%",
+          textAlign: "center",
+          fontSize: 18,
+          paddingTop: 15,
+          paddingBottom: 15,
+        }}
+      >
+        or
+      </Text>
+      {/* Google Sign-In Button */}
+      <TouchableOpacity
+        disabled={!request}
+        onPress={() => promptAsync()}
+        style={{
+          backgroundColor: "#4285F4",
+          padding: 12,
+          borderRadius: 8,
+          marginHorizontal: "auto",
+          flexDirection: "row",
+          alignItems: "center",
+          width: "80%",
+          justifyContent: "center",
+          marginBottom: 10,
+        }}
+      >
+        <Image
+          source={require("@/assets/images/google.png")}
+          style={{ width: 24, height: 24, marginRight: 8 }}
+        />
+        <Text style={{ color: "#FFF", fontWeight: "bold", fontSize: 16 }}>
+          Sign In with Google
         </Text>
       </TouchableOpacity>
     </View>

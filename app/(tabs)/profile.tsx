@@ -2,7 +2,9 @@ import { View, Text, TouchableOpacity, Alert, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { signOut } from "firebase/auth";
 import { auth } from "@/services/firebaseConfig";
+import { getAnalytics, logEvent } from "firebase/analytics";
 import { useEffect, useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function ProfileScreen() {
   const router = useRouter();
@@ -10,6 +12,19 @@ export default function ProfileScreen() {
   const user = useState(auth.currentUser);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+
+  const logLoginEvent = async () => {
+    const analytics = getAnalytics();
+    logEvent(analytics, "login", { method: "email" });
+  };
+
+  const logProfileView = async () => {
+    const analytics = getAnalytics();
+    await logEvent(analytics, "view_profile", {
+      user_id: auth.currentUser?.uid,
+      email: auth.currentUser?.email,
+    });
+  };
 
   useEffect(() => {
     // get user details
@@ -26,6 +41,7 @@ export default function ProfileScreen() {
   const handleLogout = async () => {
     try {
       await signOut(auth);
+      await AsyncStorage.removeItem("user");
       router.replace("/login");
     } catch (error: any) {
       Alert.alert("Error", error.message);
